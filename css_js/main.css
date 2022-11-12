@@ -818,11 +818,11 @@ footer{
 .contanner-1-right{
     display: flex;
 }
-.hoho{
+.contanner-1-right-a{
      color: #000;
      border: 1px solid #d9d9d9;
      font-weight: 700;
-     padding: 4px 15px;
+     padding: 8px 20px;
      transition: all;
      transition-duration: 300ms;
      transition-timing-function: ease-in-out;
@@ -831,7 +831,7 @@ footer{
 .contanner-1-right a:hover{
     color: #2aa3ff;
 }
-.hoho:hover{
+.contanner-1-right-a:hover{
     border: 1px solid #2aa3ff;
 }
 
@@ -850,7 +850,7 @@ footer{
 }
 .contanner-3-icon{
     display: flex;
-    padding: 5px 5px 5px 12px;
+    padding: 8px 5px 8px 12px;
     color: #000;
 }
 .contanner-3-icon p{
@@ -1034,6 +1034,7 @@ footer{
     font-size: 20px;
 }
 .cotanner-bank-center{
+    width: 100%;
     margin-top: 24px;
     display: flex;
     flex-direction: column;
@@ -1042,7 +1043,8 @@ footer{
 }
 .contanner-flex{
     display: flex;
-    margin-bottom: 24px;
+    justify-content: space-between;
+    position: relative;
 }
 .contanner-flex input:focus,
 .contanner-flex input:hover{
@@ -1052,18 +1054,24 @@ footer{
 .contanner-flex input{
     border-radius: 5px;
     border: 1px solid #d9d9d9;
-    width: 100%;
-    padding: 10px 400px 10px 10px;
+    height: 2.25rem;
+    width: 30rem;
+    margin: 5px 0;
 }
 .contanner-flex-p{
-    padding: 10px 10px 10px 0px;
+   width: 50%;
+   padding: 10px 10px 10px 0px;
 }
-
-.contanner-flex-icon{
-    color: red;
-    padding: 10px 5px;
+.contanner-flex-ip{
+    width: 80%;
 }
-
+.contanner-flex-p p{ 
+    margin:0px 0 30px 0px;
+    margin-left: 70%;
+}
+.contanner-flex-p span{
+    padding-right: 5px;
+}
 .contanner-flex-a {
     margin-top: 5px;
     background: #1890ff;
@@ -2164,11 +2172,8 @@ body{
     padding: 16px 10px;
 }
 
-.slider_container{
-    
-}
-.slider_item_img{
-    
+.contanner-3-icon{
+ 
 }
 .section_word{
     margin-top: 18px;
@@ -2228,6 +2233,18 @@ body{
     .block{
         margin: 0 0.2rem;
         padding: 10px 30px;
+    }
+    .contanner-flex-p{
+      
+    }
+   .contanner-flex-p p{
+    font-size: 14px;
+    margin: 0 0 0 0;
+   }
+
+    .contanner-flex-ip input{
+        margin-right: 10px;
+        width: 16rem;
     }
 }
 
